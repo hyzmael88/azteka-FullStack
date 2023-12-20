@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Rugen";
+  src: url("../assets/fonts/rugen/Rugen.ttf") format("truetype");
+}
+
+.header {
+  font-family: "Rugen";
+  color: #fff;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body {
+  background-color: #070B12;
+ 
+}
+.custom-shadow {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.70);
+}
+.custom-shadow-text {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.70);
+
+}
+.custom-shadow-score {
+  box-shadow: 8px 4px 3px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+.custom-shadow-teams {
+  box-shadow: 2px 9px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
